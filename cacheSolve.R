@@ -28,8 +28,8 @@ cacheSolve <- function(x, ...) {
     i
 }
 
-##> m <- makeCacheMatrix(matrix(c(1:4), c(2, 2)))
-##> cacheSolve(m)
-##     [,1] [,2]
-##[1,]   -2  1.5
-##[2,]    1 -0.5
+#> m <- makeCacheMatrix(matrix(c(1:4), c(2, 2)))
+#> cacheSolve(m)
+#     [,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
