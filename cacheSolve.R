@@ -1,4 +1,4 @@
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
                 x <<- y
@@ -23,3 +23,10 @@ cacheSolve <- function(x, ...) {
         x$setmean(m)
         m
 }
+
+
+##> m <- makeCacheMatrix(matrix(c(1:4), c(2, 2)))
+##> cacheSolve(m)
+##     [,1] [,2]
+##[1,]   -2  1.5
+##[2,]    1 -0.5
